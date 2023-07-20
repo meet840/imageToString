@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 // Get the Base64 string representation of the image
                 const imageString = canvas.toDataURL();
 
-                // Pass the imageString to a function in app.js (you can define your function in app.js)
+                // Pass the imageString to a function in app.js 
                 handleImageString(imageString);
             };
             img.src = dataURL;
